@@ -35,7 +35,7 @@ import scrapertools
 ROOT_DIR = config.get_runtime_path()
 
 REMOTE_VERSION_FILE = "https://raw.githubusercontent.com/streamondemand/plugin.video.streamondemand/master/version.xml"
-REMOTE_FILE = "https://github.com/streamondemand/plugin.video.streamondemand/releases/download/plugin.video.streamondemand-v5.5.9/plugin.video.streamondemand-v5.5.9.zip"
+REMOTE_FILE = "https://github.com/streamondemand/plugin.video.streamondemand/archive/master.zip"
 
 LOCAL_FILE = os.path.join(ROOT_DIR, config.PLUGIN_NAME + "-")
 
